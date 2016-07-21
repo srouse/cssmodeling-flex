@@ -14,7 +14,7 @@ module.exports = function(grunt) {
     configObj.cssmodeling = configObj.cssmodeling || {};
     configObj.cssmodeling["cssmodeling_less"] = {
         files: {
-            'dist':
+            'dist/cssmodeling_flex':
             [
                 'cssmodeling_flex.json'
             ]
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 
     configObj.cssmodeling["cssmodeling_scss"] = {
         files: {
-            'dist':
+            'dist/cssmodeling_flex':
             [
                 'cssmodeling_flex.json'
             ]

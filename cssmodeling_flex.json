@@ -229,6 +229,24 @@
 			]
 		},
         {
+			"name":"flex-v-left-center",
+            "group":"layouts",
+            "sub_group":"positioning",
+			"selector":".a-flex-v-left-center",
+            "example":"<div ... style='background-color: #fff;height:100%;'><div class='a-border'>item-1</div><div class='a-border'>item-2</div><div class='a-border'>item-3</div></div>",
+			"declaration_lines":[
+                "display: -ms-flexbox @no-important;",
+                "-ms-flex-direction: column @no-important;",
+                "-ms-flex-pack: center @no-important;",
+                "-ms-flex-align: start @no-important;",
+
+                "display: flex;",
+                "flex-flow: column nowrap;",
+                "justify-content: center;",
+            	"align-items: flex-start;"
+			]
+		},
+        {
 			"name":"flex-v-left-bottom",
             "group":"layouts",
             "sub_group":"positioning",
@@ -262,6 +280,24 @@
                 "display: flex;",
                 "flex-flow: column nowrap;",
                 "justify-content: flex-start;",
+            	"align-items: flex-end;"
+			]
+		},
+        {
+			"name":"flex-v-right-center",
+            "group":"layouts",
+            "sub_group":"positioning",
+			"selector":".a-flex-v-right-center",
+            "example":"<div ... style='background-color: #fff;height:100%;'><div class='a-border'>item-1</div><div class='a-border'>item-2</div><div class='a-border'>item-3</div></div>",
+			"declaration_lines":[
+                "display: -ms-flexbox @no-important;",
+                "-ms-flex-direction: column @no-important;",
+                "-ms-flex-pack: center @no-important;",
+                "-ms-flex-align: end @no-important;",
+
+                "display: flex;",
+                "flex-flow: column nowrap;",
+                "justify-content: center;",
             	"align-items: flex-end;"
 			]
 		},
